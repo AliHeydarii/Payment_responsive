@@ -1,9 +1,9 @@
-# Payment_responsive [Demo Project](https://aliheydarii.github.io/ToDoList-2/)
+# Payment_responsive [Demo Project](https://aliheydarii.github.io/Payment_responsive/)
 
 ![viewfinal](https://github.com/user-attachments/assets/f58b3f58-33b6-4df9-a924-2a99fe9e4673)
 ![viewfinal](https://github.com/user-attachments/assets/44f22a7d-2210-41aa-8311-79ce8f3f4299)
 
-- [Demo Project](https://aliheydarii.github.io/ToDoList-2/)
+- [Demo Project](https://aliheydarii.github.io/Payment_responsive/)
 
 - Developed by Ali Heydari
 
