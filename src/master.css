@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@layer base {
+}
+@layer components {
+}
+@layer utilities {
+  @font-face {
+    font-family: "IRANSansX-Light";
+    src: url(../font/IRANSansX-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "IRANSansX-bold";
+    src: url(../font/IRANSansX-Bold.ttf);
+  }
+
+  .IRANSansX-Light {
+    font-family: "IRANSansX-Light";
+  }
+
+  .IRANSansX-bold {
+    font-family: "IRANSansX-bold";
+  }
+  .no-spinner {
+    appearance: none;
+  }
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+.keypad_cvv {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(219, 219, 219);
+  box-shadow: 0 0 5px black;
+  flex-wrap: wrap;
+  display: none;
+  justify-content: center;
+  border-radius: 10px;
+  > li {
+    margin: 5px;
+    list-style-type: none;
+    width: 20%;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.683);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgb(247, 243, 243);
+    cursor: pointer;
+    color: black;
+  }
+}
+        /* STYLESHEET: Defines the visual appearance and layout */
+
+        #box {
+            /* Main profile box container */
+            position: fixed;
+            bottom: 7%;
+            right: 1%;
+            width: 130px;
+            height: 130px;
+            background-color: black;
+            border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            >img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                border: 4px solid transparent;
+                cursor: pointer;
+            }
+
+            >.border_gradient {
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to right, rgb(89, 255, 0), rgb(53, 73, 81)) border-box;
+                border-radius: 50%;
+                border: 4px solid transparent;
+                animation: anime 2s linear infinite;
+            }
+
+            >span {
+                width: 100%;
+                height: 30px;
+                background-color: rgb(53, 66, 97);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1%;
+                margin-top: 3%;
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                cursor: pointer;
+            }
+
+            >.icons {
+                /* Container for social media icons and close button */
+                width: 60px;
+                height: 120px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                left: -42%;
+                top: -10%;
+
+                >span {
+                    margin-top: 5%;
+
+                    &:nth-of-type(1) {
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+
+        @keyframes anime {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }

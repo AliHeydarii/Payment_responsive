@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <!-- ==================== Head Section ==================== -->
+    <meta charset="UTF-8">
+    <title>صفحه پرداخت</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/master.css">
+</head>
+
+<body class="bg-[#f3f4f6]">
+    <main class="mt-2 *:mt-2">
+
+        <!-- ==================== Section 1: Header (Desktop) ==================== -->
+        <section class="h-25 flex flex-wrap justify-center">
+            <header
+                class="w-[85%] lg:w-[80%] bg-white flex flex-wrap rounded-2xl *:h-full *:flex *:justify-center *:items-center">
+                <div class="w-[25%]"><img class="w-[80px] lg:w-[120px]" src="./img/behpardakht_logo (1).svg" alt="">
+                </div>
+                <div class="w-[50%]">
+                    <p class="text-sm lg:text-xl IRANSansX-Light">پرداخت اینترنتی به پرداخت ملت</p>
+                </div>
+                <div class="w-[25%]"><img class="w-[80px] lg:w-[120px]" src="./img/shaparak_logo (1).svg" alt=""></div>
+            </header>
+        </section>
+
+        <!-- ==================== Section 2: Card Info (Mobile) ==================== -->
+        <section class="flex flex-wrap lg:hidden justify-center font-medium">
+            <div class="w-[85%] h-52 lg:w-[80%] bg-white rounded-2xl flex flex-wrap justify-center items-start">
+                <h2 class="w-full text-center mt-2 IRANSansX-Light">اطلاعات کارت</h2>
+                <div class="w-[350px] h-40 bg-[#1d92d19b] rounded-2xl flex flex-wrap content-start justify-center">
+                    <div
+                        class="w-[60%] show_numbercart_sm flex justify-center items-center h-8 border border-gray-300 mt-5 rounded-lg">
+                    </div>
+                    <div class="w-full h-8 flex justify-center content-center mt-2">
+                        <p class="w-[20%] text-white">CVV2:</p>
+                        <div
+                            class="show_cvv2number_sm w-[30%] flex justify-center items-center h-8 border border-gray-300 rounded-lg">
+                        </div>
+                    </div>
+                    <div class="w-full h-8 flex justify-center content-center mt-2">
+                        <p class="w-[20%] text-white">EXP:</p>
+                        <div
+                            class="show_EXP_sm w-[30%] flex justify-center items-center h-8 border border-gray-300 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== Section 2: Card Info (Desktop) ==================== -->
+        <section class="hidden lg:flex flex-wrap justify-center">
+            <div
+                class="hidden lg:flex lg:w-[80%] lg:h-[90vh] lg:bg-[url(../img/preview.jpeg)] lg:rounded-2xl *:rounded-2xl">
+                <div class="w-[30%] h-full bg-white flex flex-wrap content-start justify-center gap-2">
+                    <h2 class="IRANSansX-bold mt-2">اطلاعات کارت</h2>
+                    <div class="w-[90%] h-40 bg-[#1d92d19b] rounded-2xl flex flex-wrap content-start justify-center">
+                        <div
+                            class="show_numbercart font-bold w-[60%] flex justify-center items-center h-8 border border-gray-300 mt-5 rounded-lg">
+                        </div>
+                        <div class="w-full h-8 flex justify-center content-center mt-2">
+                            <p class="w-[20%] text-white">CVV2:</p>
+                            <div
+                                class="show_cvv2number font-bold w-[30%] flex justify-center items-center h-8 border border-gray-300 rounded-lg">
+                            </div>
+                        </div>
+                        <div class="w-full h-8 flex justify-center content-center mt-2">
+                            <p class="w-[20%] text-white">EXP:</p>
+                            <div
+                                class="show_EXP font-bold w-[30%] flex justify-center items-center h-8 border border-gray-300 rounded-lg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-[90%] h-60 mt-4 bg-gray-200 rounded-2xl flex flex-wrap content-start justify-center *:flex *:justify-center *:mt-2">
+                        <img class="my-3" src="./img/ipg-defaltlogo (1).png" alt="">
+                        <p class="w-100 IRANSansX-Light">نام پذیرنده : شرکت ملت شارژ</p>
+                        <p class="w-100 IRANSansX-Light">شماره پذیرنده : 4587542</p>
+                        <p class="w-100 IRANSansX-Light">شماره ترمینال : 4576844</p>
+                    </div>
+                    <span class="my-4">-----------------------</span>
+                    <h3 class="IRANSansX-bold bg-red-500 p-3 text-white rounded-xl">مبلغ قابل پرداخت : 440.000 ریال</h3>
+                </div>
+
+                <div class="w-[70%] h-full">
+                    <ul class="flex flex-wrap *:w-full IRANSansX-bold *:mt-10">
+                        <li class="h-10 flex justify-between items-center *:p-4">
+                            <span class="text-sm">زمان باقی مانده : 00:00</span>
+                            <div><span class="bg-green-500 p-2 rounded-lg text-white">پرداخت</span></div>
+                        </li>
+                        <li class="w-full">
+                            <div class="flex justify-between">
+                                <div
+                                    class="cartNumber flex justify-center items-center gap-4 *:border-2 *:border-neutral-400 *:h-10 *:rounded-xl *:w-[13%] *:text-center">
+                                    <input class="no-spinner" type="number">
+                                    <input class="no-spinner" type="number">
+                                    <input class="no-spinner" type="number">
+                                    <input class="no-spinner" type="number">
+                                </div>
+                                <p class="w-[50%] flex justify-end items-center p-4">:شماره کارت</p>
+                            </div>
+                        </li>
+                        <li class="flex justify-between p-4 items-center relative">
+
+                            <!-- ==================== keypad cvv ==================== -->
+                            <ul class="keypad_cvv">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <!-- ==================== keypad cvv ==================== -->
+
+                            <div class="cvv2 flex justify-end gap-2 items-center ml-[16%]">
+                                <img class="size-8 cursor-pointer" onclick="toggleKeypad()"
+                                    src="./img/ipg-keypad (1).svg" alt="">
+                                <input class="no-spinner border-2 border-neutral-400 h-10 rounded-xl w-full text-center"
+                                    type="number">
+                            </div>
+                            <p>:(CVV2)شماره شناسایی دوم</p>
+                        </li>
+                        <li class="w-full mt-10">
+                            <div class="flex justify-between">
+                                <div
+                                    class="EXP flex justify-center items-center gap-4 ml-22 *:border-2 *:border-neutral-400 *:h-10 *:rounded-xl *:w-[13%] *:text-center">
+                                    <input class="no-spinner" type="number">
+                                    <input class="no-spinner" type="number">
+                                </div>
+                                <p class="w-[50%] flex justify-end items-center p-4">:تاریخ انقضای کارت</p>
+                            </div>
+                        </li>
+                        <li class="flex justify-between p-4 items-center">
+                            <div class="secondPassInput flex justify-end gap-2 items-center ml-[21%]">
+                                <input class="no-spinner border-2 border-neutral-400 h-10 rounded-xl w-full text-center"
+                                    type="password">
+                            </div>
+                            <p>:رمز اینترنتی کارت</p>
+                        </li>
+                        <li class="flex justify-center items-center">
+                            <button class="bg-red-400 text-white p-3 w-[30%] cursor-pointer rounded-xl"><a
+                                    href="#">پرداخت</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== Section 3: Mobile Form ==================== -->
+        <section class="flex flex-wrap lg:hidden justify-center">
+            <div class="w-[85%] h-[30%] lg:w-[80%] bg-white rounded-2xl flex flex-wrap justify-center content-start">
+                <p class="IRANSansX-Light border-none my-4">شماره کارت</p>
+                <div
+                    class="cartNumber_sm w-full h-[10%] flex flex-wrap justify-center gap-4 *:w-[17%] *:h-10 *:border-2 *:border-neutral-300 *:rounded-3xl *:p-3 *:text-center">
+                    <input class="no-spinner" type="number">
+                    <input class="no-spinner" type="number">
+                    <input class="no-spinner" type="number">
+                    <input class="no-spinner" type="number">
+                </div>
+
+                <p class="w-full text-center IRANSansX-Light border-none my-5">(CVV2) شماره شناسایی دوم</p>
+                <input class="cvv2_sm no-spinner text-center w-20 h-10 border-2 border-neutral-300 rounded-3xl"
+                    type="number">
+
+                <p class="w-full text-center IRANSansX-Light border-none my-5">تاریخ انقضای کارت</p>
+                <div class="EXP_sm flex gap-2">
+                    <input class="no-spinner text-center w-20 h-10 border-2 border-neutral-300 rounded-3xl"
+                        type="number">
+                    <input class="no-spinner text-center w-20 h-10 border-2 border-neutral-300 rounded-3xl"
+                        type="number">
+                </div>
+
+                <p class="w-full text-center IRANSansX-Light border-none my-5">رمز دوم کارت</p>
+                <input
+                    class="secondPassInput_sm no-spinner text-center w-40 h-10 border-2 border-neutral-300 rounded-3xl"
+                    type="password">
+
+                <div class="w-full flex flex-wrap justify-center my-4">
+                    <button
+                        class="w-[50%] IRANSansX-Light bg-red-400 p-2 rounded-xl text-white cursor-pointer">پرداخت</button>
+                </div>
+            </div>
+        </section>
+    <!-- BODY SECTION: Contains the visible content of the page -->
+    <div class="hidden lg:flex">
+        <div id="box">
+        <!-- Main profile box container -->
+        <img src="./img/1.jpg" alt="">
+        <div class="border_gradient"></div>
+        <span>Ali Heydari</span>
+        <div class="icons">
+            <!-- Icons and close button container -->
+            <span id="myClose"><img src="./img/icons8-close-48.png" width="25px" alt="close"></span>
+            <span><a href="https://www.linkedin.com/in/ali-heydari-3567b2191/" target="_blank"><img
+                        src="./img/icons8-linkedin-48.png" width="40px" alt="linkedin"></a></span>
+            <span><a href="https://www.instagram.com/alifront_com" target="_blank"><img src="./img/icons8-instagram-48.png"
+                        width="40px" alt="Instagram"></a></span>
+            <span><a href="https://github.com/AliHeydarii" target="_blank"><img src="./img/icons8-github-64.png" width="40px"
+                        alt="Github"></a></span>
+        </div>
+    </div>
+    </div>
+        <!-- ==================== Footer (Mobile) ==================== -->
+        <footer class="flex justify-center">
+            <div class="w-[60%] h-18 bg-green-500 lg:hidden rounded-2xl flex flex-wrap content-center text-white">
+                <p class="w-full text-center">Developed By Ali Heydari</p>
+                <span class="w-full flex justify-center gap-2">
+                    <a href="https://www.linkedin.com/in/ali-heydari-3567b2191/" target="_blank">Linkedin</a>
+                    <a href="https://www.instagram.com/alifront_com" target="_blank">Instagram</a>
+                    <a href="https://github.com/AliHeydarii?tab=repositories" target="_blank">Github</a>
+                </span>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="src/script.js"></script>
+</html>
